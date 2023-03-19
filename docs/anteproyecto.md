@@ -1,22 +1,19 @@
-# Anteproyecto
-
-> NOTA: Incluir diagramas donde proceda (diagramas de clases, casos de uso, entidad relación, ...).
-
 ## OBJETIVOS
 
-*[TODO] Se indicará de forma genérica y sin entrar en concreciones el objetivo
-que se pretende alcanzar al realizar el proyecto. Se indicará igualmente donde
-será utilizado el proyecto obtenido.*
-
-## PREANALISIS DE LO EXISTENTE (Opcional)
-
-*[TODO] Si procede, se informará brevemente sobre el funcionamiento del sistema actual. El que vamos a reemplazar o a mejorar. Este sistema no tiene por qué estar necesariamente automatizado pudiendo realizarse actualmente de forma manual por personas.*
+> Se tendrá como objetivo la creación de un bot para telegram que sea capaz de decirte el tiempo que hace
+> en el lugadr dónde se le indique, para esto se usará C# y el framework de Microsoft .NET
 
 ## ANÁLISIS DEL SOFTWARE
 
-*[TODO] Determinar de forma genérica lo que tiene que hacer el software y cuáles son los requisitos que debe cumplir.*
+El bot debe cumplir con:
 
-*Si el proyecto trata sobre la adaptación o ampliación de algún software existente, se deberá aportar información sobre el mismo (documentos electrónicos, direcciones URL, etc.), delimitando claramente cuál será el trabajo que se realizará y que funcionalidad ya está implementada.*
+1. Comunicación con Telegram: El bot debe ser capaz de comunicarse con los servidores de Telegram para enviar y recibir mensajes y comandos.
+
+2. Procesamiento de comandos: El bot debe ser capaz de procesar los comandos que recibe de los usuarios de Telegram y responder adecuadamente a ellos.
+
+3. Gestión de conversaciones: El bot debe ser capaz de mantener y gestionar conversaciones con los usuarios de Telegram, manteniendo un seguimiento de los mensajes recibidos y enviados.
+
+4. Integración con servicios externos: El bot puede ser capaz de integrarse con servicios externos, como bases de datos, APIs de terceros, entre otros.
 
 > *Incuir los diagramas necesarios*
 
