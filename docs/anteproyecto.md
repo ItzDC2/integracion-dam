@@ -15,14 +15,26 @@ El bot debe cumplir con:
 
 4. Integración con servicios externos: El bot puede ser capaz de integrarse con servicios externos, como bases de datos, APIs de terceros, entre otros.
 
-> *Incuir los diagramas necesarios*
-
 ## DISEÑO DEL SOFTWARE
 
-*[TODO] Propuesta de posibles opciones de implementación del software que hay que construir, determinar cómo se va a llevar a cabo la implementación.*
+1. Usar la biblioteca Telegram.Bot: Esta es una biblioteca de C# que facilita la interacción con la API de Telegram.
 
->  *Incluir los diagramas necesarios.*
+2. Utilizar la biblioteca de reflexión de C#: La biblioteca de reflexión de C# le permite inspeccionar el código en tiempo de ejecución y obtener información sobre los tipos, las propiedades y los métodos de una clase.
+
+3. Desplegar el bot en un servicio en la nube: desplegar el bot en un servicio en la nube, como Azure App Service o Heroku. De esta manera, puede garantizar que el bot esté disponible las 24 horas del día y los 7 días de la semana.
+
+![Diagrama de flujo](/recursos/diagramadeflujo.png)
 
 ## ESTIMACIÓN DE COSTES
 
-*[TODO] Estimar el coste que representará la creación del proyecto. Esta estimación será temporal y/o económica si procede (costes de contratación de servicios en la nube, por ejemplo).*
+> Dependerá de varios factores, como la complejidad de la funcionalidad del bot, el tiempo de desarrollo estimado, los recursos humanos necesarios y los costos de hardware y software.
+
+A continuación, presento algunos de los factores que pueden influir en los costos de desarrollo:
+
+1. Funcionalidad: La complejidad y la cantidad de funcionalidades requeridas para el bot pueden influir en los costos de desarrollo.
+
+2. Tiempo de desarrollo: uno de los factores más críticos para determinar los costos de desarrollo, estimadamente, serán unas 30 horas de desarrollo.
+
+3. Recursos humanos: al ser sólo una persona la que estará desarrollando el proyecto.
+
+4. Hardware y software: es posible que se deba invertir en hardware y software para el desarrollo y la implementación del bot, algunas soluciones en la nube, como Azure, pueden reducir estos costos.
